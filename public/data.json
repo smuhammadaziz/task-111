@@ -1,0 +1,78 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "admin@gmail.com",
+            "password": "admin123",
+            "name": "Admin User"
+        },
+        {
+            "id": 2,
+            "email": "manager@gmail.com",
+            "password": "manager123",
+            "name": "B2B Manager"
+        }
+    ],
+    "clients": [
+        {
+            "id": "c1",
+            "companyName": "Acme Logistics",
+            "status": "active",
+            "subscriptionPlan": "Enterprise",
+            "monthlyPrice": 2999,
+            "connectedDate": "2024-03-12",
+            "objects": [
+                {
+                    "id": "o1",
+                    "type": "Vehicle",
+                    "name": "Truck #24"
+                },
+                {
+                    "id": "o2",
+                    "type": "Device",
+                    "name": "QR Gate Scanner"
+                }
+            ]
+        },
+        {
+            "id": "c2",
+            "companyName": "Skyline Rentals",
+            "status": "paused",
+            "subscriptionPlan": "Standard",
+            "monthlyPrice": 899,
+            "connectedDate": "2023-11-01",
+            "objects": [
+                {
+                    "id": "o3",
+                    "type": "Vehicle",
+                    "name": "SUV #5"
+                },
+                {
+                    "id": "o4",
+                    "type": "User",
+                    "name": "Operator Account"
+                }
+            ]
+        },
+        {
+            "id": "c3",
+            "companyName": "GreenFleet Mobility",
+            "status": "active",
+            "subscriptionPlan": "Pro",
+            "monthlyPrice": 1499,
+            "connectedDate": "2024-06-20",
+            "objects": [
+                {
+                    "id": "o5",
+                    "type": "Vehicle",
+                    "name": "EV Van #3"
+                },
+                {
+                    "id": "o6",
+                    "type": "Device",
+                    "name": "Charging Station A-12"
+                }
+            ]
+        }
+    ]
+}
